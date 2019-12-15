@@ -16,10 +16,7 @@ def get_js_function(js_path, func_name, func_args):
         return ctx.call(func_name, func_args)
 
 if __name__ == '__main__':
-    # 给个star吧
     passwd = get_js_function('aqistudy.js', 'd', '{city: "兰州"}')
     print('*'*80)
     print(passwd)
     print('*'*80)
-    print('@欢迎Star！')
-    print('@有问题请联系: scrapy@qq.com')
