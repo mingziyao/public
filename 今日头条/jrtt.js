@@ -127,5 +127,5 @@ function cp() {
     return t.cp;
 }
 
-console.info(as())
+console.info(cp())
 
